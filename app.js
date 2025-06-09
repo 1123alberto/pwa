@@ -91,7 +91,7 @@ const loadingIndicator = document.getElementById('loading-indicator');
 // !!! Use a backend proxy (e.g., a Cloud Function, Node.js server) to handle API calls securely.
 // !!! For this conceptual example, we're placing it here for demonstration purposes only.
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-const GEMINI_API_KEY = 'YOUR_GEMINI_API_KEY_HERE'; // <--- Replace with your actual Gemini API key
+const GEMINI_API_KEY = 'AIzaSyDadn8bhKVgMmFry6iTMdOGiVTaenlr78U'; // <--- Replace with your actual Gemini API key
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
 
 async function getLlmInsights() {

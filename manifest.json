@@ -1,0 +1,23 @@
+{
+    "name": "My Personal Medical Explorer",
+    "short_name": "MedExplorer",
+    "description": "A personal web app for exploring symptom possibilities with an LLM. Not for professional medical use.",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f0f2f5",
+    "theme_color": "#4a90e2",
+    "icons": [
+        {
+            "src": "icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+    // You'll need to create icon-192x192.png and icon-512x512.png images
+    // in the root of your project.
+}

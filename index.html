@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="appTitle">My Medical PWA (Personal Use)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" data-i18n="appDescription" content="A personal web app for exploring symptom possibilities with an LLM. Not for professional medical use.">
+    <link rel="icon" href="/icon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/icon-192x192.png">
+</head>
+<body>
+    <header>
+        <h1 data-i18n="appHeader">Personal Medical Symptom Explorer</h1>
+        <p class="disclaimer" data-i18n="disclaimerText">
+            IMPORTANT: This app uses an AI and is for personal informational use ONLY. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional.
+        </p>
+        <div class="controls">
+            <button id="theme-toggle" data-i18n="toggleTheme">Toggle Theme</button>
+            <select id="language-selector">
+                <option value="en">English</option>
+                <option value="el">Ελληνικά</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <h2 data-i18n="inputSectionTitle">Enter Symptoms & Observations</h2>
+            <textarea id="symptoms-input" rows="10" placeholder="" data-i18n="symptomsPlaceholder"></textarea>
+            <button id="diagnose-button" data-i18n="diagnoseButton">Get AI Insights</button>
+            <div id="loading-indicator" style="display: none;" data-i18n="loadingMessage">Generating insights...</div>
+        </section>
+
+        <section class="output-section">
+            <h2 data-i18n="outputSectionTitle">AI Insights</h2>
+            <div id="diagnosis-output">
+                <p data-i18n="initialOutputMessage">Insights will appear here after you submit your symptoms.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footerText">&copy; 2025 Personal PWA. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

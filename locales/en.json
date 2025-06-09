@@ -2,7 +2,7 @@
 "appTitle":	"My Medical PWA (Personal Use)",
 "appDescription":	"A personal web app for exploring symptom possibilities with an LLM. Not for professional medical use.",
 "appHeader":	"Personal Medical Symptom Explorer",
-"disclaimerText":	"IMPORTANT: This app uses an AI and is for personal informational use ONLY. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional.",
+"disclaimerText":	"IMPORTANT: This app uses an AI and is for personal informational use ONLY.",
 "toggleTheme":	"Toggle Theme",
 "inputSectionTitle":	"Enter Symptoms & Observations",
 "symptomsPlaceholder":	"e.g., Fever, cough, fatigue, headache, body aches...",

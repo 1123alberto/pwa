@@ -1,7 +1,7 @@
 {
     "name": "My Personal Medical Explorer",
     "short_name": "MedExplorer",
-    "description": "A personal web app for exploring symptom possibilities with an LLM. Not for professional medical use.",
+    "description": "A personal web app for exploring symptom possibilities with an LLM.",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#f0f2f5",

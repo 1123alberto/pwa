@@ -1,5 +1,5 @@
 {
-    "appTitle": "Mon PWA Médical (Usage Personnel)",
+    "appTitle": "Mon PWA Médical",
     "appDescription": "Une application web personnelle pour explorer les possibilités de symptômes avec un LLM. Non destinée à un usage médical professionnel.",
     "appHeader": "Explorateur Personnel de Symptômes Médicaux",
     "disclaimerText": "IMPORTANT: Cette application utilise une IA et est UNIQUEMENT à des fins d'information personnelle.",

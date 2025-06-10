@@ -92,12 +92,12 @@ const loadingIndicator = document.getElementById('loading-indicator');
 // !!! For this conceptual example, we're placing it here for demonstration purposes only.
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 const GEMINI_API_KEY = 'AIzaSyDadn8bhKVgMmFry6iTMdOGiVTaenlr78U'; // <--- Replace with your actual Gemini API key
-const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API_KEY}`;
+const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
 
 async function getLlmInsights() {
     const symptoms = symptomsInput.value.trim();
     if (!symptoms) {
-        diagnosisOutput.innerHTML = `<p style="color: orange;">${translations['noSymptomsWarning'] || 'Please enter some symptoms or observations.'}</p>`;
+        diagnosisOutput.innerHTML = `<p style="color: orange;">${translations['noSymptomsWarning'] || 'Please enter symptoms or observations.'}</p>`;
         return;
     }
 
@@ -113,7 +113,7 @@ async function getLlmInsights() {
         "${symptoms}"
 
         Please format your response clearly with headings for "Possible Conditions" and "Common Treatments/Medications".
-        Start your response with a clear disclaimer.
+        
     `;
 
     try {

@@ -1,5 +1,5 @@
 {
-"appTitle":	"My Medical PWA (Personal Use)",
+"appTitle":	"Medical PWA",
 "appDescription":	"A personal web app for exploring symptom possibilities with an LLM. Not for professional medical use.",
 "appHeader":	"Personal Medical Symptom Explorer",
 "disclaimerText":	"IMPORTANT: This app uses an AI and is for personal informational use ONLY.",

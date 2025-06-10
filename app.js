@@ -106,8 +106,8 @@ async function getLlmInsights() {
     diagnosisOutput.innerHTML = ''; // Clear previous output
 
     const prompt = `
-        You are a helpful assistant for personal informational use. Given the following symptoms and observations, provide some *possible* conditions and common treatments/medications associated with them.
-        Strictly state that this is for informational purposes only and NOT a diagnosis or medical advice. Emphasize consulting a qualified medical professional.
+        You are a well-read medical doctor. Given the following symptoms and observations, provide some *possible* conditions and common treatments/medications associated with them.
+        List the top 5 possibilities. Following the list include EXTREMELY BRIEF explanations and treatment suggestions.
 
         Symptoms and Observations:
         "${symptoms}"

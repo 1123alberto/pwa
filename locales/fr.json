@@ -2,7 +2,7 @@
     "appTitle": "Mon PWA Médical (Usage Personnel)",
     "appDescription": "Une application web personnelle pour explorer les possibilités de symptômes avec un LLM. Non destinée à un usage médical professionnel.",
     "appHeader": "Explorateur Personnel de Symptômes Médicaux",
-    "disclaimerText": "IMPORTANT: Cette application utilise une IA et est UNIQUEMENT à des fins d'information personnelle. Ce n'est PAS un substitut à un avis médical professionnel, un diagnostic ou un traitement. Consultez toujours un professionnel de la santé qualifié.",
+    "disclaimerText": "IMPORTANT: Cette application utilise une IA et est UNIQUEMENT à des fins d'information personnelle.",
     "toggleTheme": "Basculer le Thème",
     "inputSectionTitle": "Saisir les Symptômes et Observations",
     "symptomsPlaceholder": "ex: Fièvre, toux, fatigue, maux de tête, courbatures...",
